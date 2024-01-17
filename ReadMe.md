@@ -17,4 +17,10 @@ We're excited to announce the availability of a new template for .NET 8 Web Apps
 ## Getting Started
 
 More referrence codes can be found with creating a following command 
-dotnet new mudblazor --interactivity Auto --auth Individual --all-interactive 
+dotnet new mudblazor --interactivity Auto --auth Individual --all-interactive
+
+
+
+- Created Blazor app
+- Added MudBlazor nuget package - following [Official Documentation of MudBlazor](https://mudblazor.com/getting-started/installation#manual-install-add-font-and-style-references);
+- Needed to add builder.Services.AddMudServices() for mudblazortheme provider
